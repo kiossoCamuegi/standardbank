@@ -141,11 +141,7 @@ body #google-translate-element span {
    }
    .news article{
        width:375px !important;
-       height:670px !important;
-   }
-
-   body .news article img{
-      height:350px !important;
+       height:auto !important;
    }
 
 
