@@ -28,6 +28,10 @@ body a{
     min-height:20px;
 }
 
+
+body .bg-red{
+    background:rgb(218, 10, 10);
+}
  
 
 .text-blue{
@@ -278,7 +282,11 @@ body #google-translate-element span {
     body .navbar-responsive ul{
        display: flex;
        flex-direction: column; 
-       align-items: flex-end;
+       align-items: center;
+       justify-content: center;
+       width:100%;
+       padding:0px !important;
+       text-align: center;
     }
  
     body .navbar-responsive  .toogle-menu{
@@ -291,17 +299,39 @@ body #google-translate-element span {
         height:30px !important;
     }
 
+    body .navbar-responsive  .mt-4{
+      width:100% !important;
+    }
+
+    body .navbar-responsive .btn-account{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        width:100% !important;
+    }
+
     body .navbar-responsive li{
         margin:15px 0px;
         list-style: none;
+        width:100%;
+        padding:10px 0px;
+        border-bottom:1px solid rgb(247, 247, 247);
     }
 
     body .navbar-responsive a{
         color:#fff;
+        width:100% !important;
     }
 
     body .navbar-responsive .btn{
           width:100% !important;
+          min-width:100% !important;
+    }
+
+    body .navbar-responsive .btn svg{
+        margin-right:10px !important;
+        width:20px;
+        height:20px;
     }
 
     .btn-account{
@@ -327,6 +357,10 @@ body #google-translate-element span {
         margin:0px !important;
     }
 
+    body .signin button{
+      width:100% !important;
+  }
+
   }
  
 
@@ -334,3 +368,281 @@ body #google-translate-element span {
      max-width:280px !important;
 
   }
+
+
+  body .sb-auth{
+    background-color: var(--blue); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width:100%;    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right bottom, var(--black) 50%, var(--blue) 50%);
+  }
+
+  body .sb-auth .sb-form{
+      width:100%;
+      height: auto; 
+      min-height:450px;
+      max-width:600px;
+      background:#ffff;
+      box-shadow:0px 3px 10px rgba(0, 0, 0, 0.2);
+      padding:20px; 
+  }
+
+  body .sb-auth .sb-form  .btn{
+    min-width:150px;
+    margin:0px auto; 
+}
+
+  body .mr-2{
+      margin-right:15px;
+  }
+
+  body .ml-2{
+    margin-left:10px;
+  }
+
+  body .sb-auth{
+      font-weight:600 !important;
+  }
+
+ 
+
+  body .sb-auth .sb-form img{
+      max-height:100px;
+      margin-bottom:20px;
+  }
+
+ 
+
+
+table .d-flex{
+  align-items: center;
+}
+
+
+table td{
+   font-weight:600;
+}
+
+
+table button svg{
+  width:25px;
+  height:25px;
+}
+
+
+
+
+
+@media screen and (max-width:1280px){
+    body .space-area{
+      display: block !important;
+    }
+
+    body .cover{
+        height:  auto !important;
+    }
+
+    body .cover .cards {
+        max-width:100% !important;
+        width:100% !important;
+        margin-top:20px;
+    }
+
+    body .cover .cards .cardb{
+        width:205px !important; 
+        height:130px !important;
+    }
+
+    body .cover .cards .cardb  .line{
+      margin-top:20px !important;
+    }
+
+    body .cover .cards .cardb h2{
+        font-size:20px !important;
+    }
+
+    body .table-container{
+      margin-top:20px !important;
+    }
+
+    table tr, table td{
+      font-size:15px !important;
+    }
+
+    body .sidebar li{
+        font-size:15px !important;
+        margin:5px 0px !important;
+    }
+
+
+    body  .main-block, body .credit-cards{
+       max-width:100% !important; 
+    } 
+
+    body .cover .cards {
+      padding:0px !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+  
+@media screen and (max-width:900px){
+  thead th:not(:first-child) {
+    display: none;
+  }
+
+  td, th {
+    display: block;
+  }
+
+  td[data-th]:before  {
+    content: attr(data-th);
+  }
+
+  td  button{
+    width:100%;
+  }
+
+
+  body  .code, body .block-center{
+    font-size:14px !important;
+  }
+ 
+
+  body .cover .cards .cardb{
+    width:100% !important;
+    margin:10px 0px !important;
+  }
+
+  body .cover{
+      padding:20px 10px !important;
+  }
+
+  body .main-block{
+    padding:0px !important;
+  }
+
+  body .main-block .d-flex.user{
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+  }
+
+  body .main-block h3{
+    font-size:20px !important;
+  }
+  
+  body .main-block .d-block h5{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  body .main-block input{
+    text-align: center;
+    max-width:200px;
+    font-size:20px !important;
+  }
+
+
+  body .table-container h1{
+    font-size:20px !important;
+  }
+
+  body .cd{
+    text-align: left !important;
+  }
+
+ body .sidebar-container{
+        width:100% !important;
+        position: fixed;
+        left:0px;
+        top:0px;
+        z-index:1000; 
+        height:100vh !important;
+  }
+
+  body .cover{
+    position: relative;
+  }
+
+  body .cover .toggle-sidebar{
+      position: absolute;
+      top:10px;
+      right:20px;
+  }
+
+  body .toggle-sidebar{
+      min-width:10px;
+      min-height:10px; 
+      width:45px;
+      height:45px;
+      background-color: #ffff;
+      cursor: pointer;
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+      color:var(--blue);
+  }
+
+  body .toggle-sidebar svg{
+    width:24px;
+    height:24px;
+  }
+
+  body .space-header{
+      display: flex; 
+      justify-content: space-between; 
+      margin-bottom:5px;
+  }
+
+  body .sidebar-container .sidebar{
+      padding-top:0px !important;
+      margin-top:0px 1
+      ;
+  }
+
+  body .sidebar-container .sidebar img{
+    margin-bottom:0px !important;
+    max-width:230px;
+  }
+
+  body .sidebar-container.hide-sidebar{
+      display: none !important;
+  }
+
+ 
+
+  body .sb-form{
+    height:100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .sb-form img{
+    max-width:250px;
+  }
+   
+  body .sb-form button{
+      width:100% !important;
+  }
+}

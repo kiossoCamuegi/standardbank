@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { styled } from 'styled-components';
 import {BiSolidUserCircle} from "react-icons/bi";
 import {HiOutlineMenuAlt3} from "react-icons/hi";
-import {AiOutlineCloseCircle} from "react-icons/ai";
+import {AiOutlineCloseCircle,AiOutlineSecurityScan} from "react-icons/ai";
+import {RiSecurePaymentFill} from "react-icons/ri"
 const Logo =  require("../../Assets/images/logo1.png")
 
 function Navbar() {
@@ -31,6 +32,9 @@ const Toogle = ()=>{
                       <div className="translator">
                           <div className="icon"></div> 
                       </div>
+                      <div className="mr-2">
+                      <Link to="/sb24_signin"><button className="btn btn-account bg-dark text-light"><RiSecurePaymentFill />Aceder ao SB24</button></Link>  
+                      </div>
                       <Link to="/signin"><button className="btn btn-account bg-blue text-light"><BiSolidUserCircle /> Entrar</button></Link>  
                       <div onClick={Toogle} className="btn bg-blue text-light btn-toggle"><HiOutlineMenuAlt3 /></div>
                   </div>
@@ -48,6 +52,9 @@ const Toogle = ()=>{
                         <li><Link to="#">Produtos</Link></li>
                     </ul>
                     <Link to="/signin"><button className="btn bg-light text-blue"><BiSolidUserCircle /> Entrar</button></Link> 
+                    <div className="mt-4">
+                    <Link to="/sb24_signin"><button className="btn btn-account bg-dark text-light"><RiSecurePaymentFill />Aceder ao SB24</button></Link>  
+                    </div>
                   </div>
              </div>
         </div>
@@ -95,7 +102,8 @@ const Container = styled.nav`
 
                     svg{ 
                         width:25px;
-                        height:25px
+                        height:25px;
+                        margin-right:5px;
                     }
                }
           }
