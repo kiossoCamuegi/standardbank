@@ -53,7 +53,7 @@ function Sidebar() {
                 </Link>)
           })}
         </ul>
-        <ul className='sidebar' >
+        <ul className='sidebar' style={{margin:"0px"}} >
           <div className="mt-2">
           <Link to="/">
                <li className="bg-red">
@@ -82,7 +82,7 @@ const Container = styled.div`
      .logo{
         img{
             max-width:250px;
-            margin-bottom:20px;
+            margin-bottom:15px;
         }
      }
 
@@ -93,7 +93,7 @@ const Container = styled.div`
         height:100%; 
      }
 
-     toggle-sidebar{
+     .toggle-sidebar{
         display:none;
     }
 
@@ -112,7 +112,7 @@ const Container = styled.div`
              justify-content:space-between; 
              border-radius:6px;
              transition:all 1s ease-in-out;
-             font-size:18px;
+             font-size:16px;
              color:#ffff;
 
              .flex{

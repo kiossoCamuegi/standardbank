@@ -588,7 +588,7 @@ const Container = styled.div`
     overflow-y:auto;
     background:#ffff;    
 
-    toggle-sidebar{
+    .toggle-sidebar{
         display:none;
     }
 
@@ -601,7 +601,7 @@ const Container = styled.div`
         padding:20px;
 
         h1{
-            font-size:25px;
+            font-size:23px;
             margin:0px;
             display:flex;
             align-items:flex-end;
@@ -616,7 +616,7 @@ const Container = styled.div`
         height: 50px;  
         border: solid 5px #000;
         border-radius: 50%/100px 100px 0 0; 
-        margin-top:50px;
+        margin-top:40px;
     }
 
     .line.success{
@@ -725,7 +725,7 @@ const Container = styled.div`
        .cover{
            height:500px;
            width:100%;
-           padding:20px;
+           padding:20px 5px;
            background-image: radial-gradient(circle at 52% 33%, rgba(17, 17, 17,0.08) 0%, rgba(17, 17, 17,0.08) 
            33.333%,rgba(74, 74, 74,0.08) 33.333%, rgba(74, 74, 74,0.08) 66.666%,rgba(130, 130, 130,0.08) 66.666%, 
            rgba(130, 130, 130,0.08) 99.999%),radial-gradient(circle at 70% 65%, rgba(129, 129, 129,0.08) 0%,
@@ -745,11 +745,12 @@ const Container = styled.div`
                     flex-wrap:wrap; 
                     max-width:580px; 
                     justify-content:space-between;
-                    padding-left:10px;
+                    padding-left:10px; 
+                    padding-top:28px;
 
                     .cardb{
-                        width:275px;
-                        height:170px;
+                        width:215px; 
+                        height:155px; 
                         background:#ffff;
                         margin:10px 0px;
                         box-shadow:0px 3px 10px rgba(0, 0, 0, 0.2);
