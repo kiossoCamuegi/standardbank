@@ -93,6 +93,12 @@ const Container = styled.div`
         height:100%; 
      }
 
+     toggle-sidebar{
+        display:none;
+    }
+
+
+
 
      ul{
          margin:0px 0px;
