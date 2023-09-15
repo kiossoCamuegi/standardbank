@@ -21,7 +21,7 @@ function Footer() {
                  <div className="footer-item">
                     <h1>Sobre nós</h1>
                     <ul>
-                        <li><Link to="#">Carreiras</Link></li>
+                        <li><Link to="/carrers">Carreiras</Link></li>
                         <li><Link to="#">Localizações</Link></li>
                         <li><Link to="#">Parcerias</Link></li>
                         <li><Link to="#">Industrias</Link></li>
@@ -63,22 +63,20 @@ function Footer() {
 const Container = styled.div`
      width:100%;
      padding:60px 0px;
-     min-height:300px; 
-     border-top:1px solid #D8D5DB;
-     margin-top:30px;
+     min-height:300px;  
      background:var(--black);
      color:#ffff;
 
 
      .footer-container{
           display:flex;
-          justify-content:space-around;
+          justify-content:space-between;
           flex-wrap:wrap;
  
 
             .footer-item{
-                width:250px;  
-
+                width:250px;   
+                
                   img{
                       max-width:300px;
                       margin-bottom:20px;

@@ -6,6 +6,9 @@ import Contacts from './Pages/Contacts';
 import About from './Pages/About';
 import Sb_signin from './Pages/SB24/Sb_signin';
 import Sb_dashboard from './Pages/SB24/Sb_dashboard';
+import CarrerHome from './Pages/Carrers/CarrerHome';
+import CarrerSearch from './Pages/Carrers/CarrerSearch';
+import CarrerJobDetails from './Pages/Carrers/CarrerJobDetails';
 
 function App() {
   return (
@@ -17,7 +20,10 @@ function App() {
           <Route path="/contacts" element={<Contacts />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/sb24_signin" element={<Sb_signin />}/>
+          <Route path="/carrers" element={<CarrerHome />}/>
           <Route path="/sb24_dashboard" element={<Sb_dashboard />} />
+          <Route path="/carrersearch" element={<CarrerSearch />} />
+          <Route path="/carrerjobdetails" element={<CarrerJobDetails />} />
        </Routes>
    </Router>
   );

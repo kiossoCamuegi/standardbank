@@ -25,6 +25,7 @@ const Container = styled.div`
 
      iframe{
         min-height:650px;
+        background:var(--black);
         width:100% !important;
      }
  

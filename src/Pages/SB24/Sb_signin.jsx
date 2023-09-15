@@ -26,13 +26,13 @@ function Sb_signin() {
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" value="123456789" placeholder="Password" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
+           <div className="space">
+           <Form.Group className="mb-3" controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="Lembrar sempre" />
             </Form.Group>
-             <Link to="/sb24_dashboard"><button className="btn bg-blue text-light">Entar</button></Link>
-             <div className="mt-2">
-             <Link to="#" className='text-blue'> esqueceu a sua password ?</Link>
-             </div>
+            <div>  <Link to="#" className='text-blue'> esqueceu a sua password ?</Link></div>
+           </div>
+             <Link to="/sb24_dashboard"><button className="btn bg-blue text-light">Entar</button></Link> 
           </Form>
        </div>
     </div>

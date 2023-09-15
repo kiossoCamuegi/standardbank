@@ -33,7 +33,7 @@ const Toogle = ()=>{
                           <div className="icon"></div> 
                       </div>
                       <div className="mr-2">
-                      <Link to="/sb24_signin"><button className="btn btn-account bg-dark text-light"><RiSecurePaymentFill />Aceder ao SB24</button></Link>  
+                      <Link to="/sb24_signin"><button className="btn btn-account bg-dark text-light"><RiSecurePaymentFill />SB24</button></Link>  
                       </div>
                       <Link to="/signin"><button className="btn btn-account bg-blue text-light"><BiSolidUserCircle /> Entrar</button></Link>  
                       <div onClick={Toogle} className="btn bg-blue text-light btn-toggle"><HiOutlineMenuAlt3 /></div>
@@ -53,7 +53,7 @@ const Toogle = ()=>{
                     </ul>
                     <Link to="/signin"><button className="btn bg-light text-blue"><BiSolidUserCircle /> Entrar</button></Link> 
                     <div className="mt-4">
-                    <Link to="/sb24_signin"><button className="btn btn-account bg-dark text-light"><RiSecurePaymentFill />Aceder ao SB24</button></Link>  
+                    <Link to="/sb24_signin"><button className="btn btn-account bg-dark text-light"><RiSecurePaymentFill />SB24</button></Link>  
                     </div>
                   </div>
              </div>
@@ -65,7 +65,8 @@ const Toogle = ()=>{
 const Container = styled.nav`
     width:100%;
     border-bottom:1px solid #D8D5DB;
-
+    background:#ffff;
+    
     .btn-toggle, .navbar-responsive{
           display:none;
     }
@@ -99,6 +100,7 @@ const Container = styled.nav`
                .btn{
                   padding:8px 22px;
                   margin:0px;
+                  min-width:150px;
 
                     svg{ 
                         width:25px;

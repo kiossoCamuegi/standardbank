@@ -48,6 +48,13 @@ body .bg-red{
 }
 
 
+body .space{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
 #simcard {
   position: relative;
   width: 350px;
@@ -370,11 +377,7 @@ body #google-translate-element span {
   }
 
 
-  body .sb-auth{
-    background-color: var(--blue); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  body .sb-auth{ 
     height:100vh;
     width:100%;    
     position: relative;
@@ -382,13 +385,18 @@ body #google-translate-element span {
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right bottom, var(--black) 50%, var(--blue) 50%);
+    background: url("https://cms.cnbcafrica.com/wp-content/uploads/2022/06/Standard-Bank_30-Baker-Street_Interior_2-1.jpg"); 
+    background-color: var(--blue); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   body .sb-auth .sb-form{
       width:100%;
       height: auto; 
-      min-height:450px;
-      max-width:600px;
+      min-height:420px;
+      max-width:500px;
       background:#ffff;
       box-shadow:0px 3px 10px rgba(0, 0, 0, 0.2);
       padding:20px; 
@@ -411,10 +419,13 @@ body #google-translate-element span {
       font-weight:600 !important;
   }
 
- 
+  body .sb-auth  .space{
+      display: flex;
+      justify-content: space-between;
+  } 
 
   body .sb-auth .sb-form img{
-      max-height:100px;
+      max-height:60px;
       margin-bottom:20px;
   }
 
@@ -490,16 +501,7 @@ table button svg{
       padding:0px !important;
   }
 
-}
-
-
-
-
-
-
-
-
-
+} 
   
 @media screen and (max-width:900px){
   thead th:not(:first-child) {
@@ -523,6 +525,10 @@ table button svg{
     font-size:14px !important;
   }
  
+  body .sb-auth  .space{
+      flex-direction: column !important;
+      margin-bottom:10px;
+  }
 
   body .cover .cards .cardb{
     width:100% !important;
@@ -645,4 +651,220 @@ table button svg{
   body .sb-form button{
       width:100% !important;
   }
+}
+
+
+body  .loader{
+    transition:all 1s ease-in-out;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100vh;
+    z-index:1000;
+    background: radial-gradient(circle farthest-side, rgb(2, 2, 90), var(--blue));
+    padding:20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+body  .loader img{
+    max-height:140px;
+}
+
+body  .loader  h2{
+    font-size:30px;
+    font-weight:600;
+    color:#ffff;
+    padding-left:140px;
+    margin-top:-20px;
+}
+
+
+@media screen and (max-width:1280px){
+     body  .carrer-cards .cards article{
+        width:285px; 
+     }
+  
+} 
+
+@media screen and (max-width:900px){
+ 
+  
+  body .carrer-home{
+    height:90vh !important;    
+    padding:0px !important;
+    background:var(--black);
+  }
+
+  body .carrer-home img{
+      display: none !important;
+  }
+
+
+  body .carrer-home.h1{
+    height:70vh !important;
+  }
+
+  body .carrer-home  .content{
+    text-align: left !important;
+  }
+
+  body .carrer-home .cover-over .title{ 
+      font-size:30px !important; 
+      margin-bottom:10px !important;
+  }
+
+  body .carrer-home .cover-over form{
+     flex-direction: column !important;
+  }
+
+  
+  body .carrer-home img{ 
+      width:100% !important;
+      height:100% !important;
+  }
+
+  body .carrer-home .cover-over form .d-flex,
+  body .carrer-home .cover-over form input,
+  body .carrer-home .cover-over form select,
+  body .carrer-home .cover-over form .btn{
+      width:100% !important; 
+  }
+
+
+  body  .carrer-cards .cards article{
+    width:100% !important; 
+    margin:20px 0px !important;
+ }
+
+ body .carrer-testimonial{
+    flex-direction: column !important;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+ }
+
+ body .carrer-testimonial .image{
+    width:100%;
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+ }
+
+ body .carrer-testimonial .details{
+    padding:0px !important;
+    margin:20px 0px !important;
+ }
+
+ body .job-content{
+     flex-direction: column !important;
+ }
+
+ body .job-content .search-bar,
+ body .job-content .main-jobs{ 
+    width:100%;
+    min-width:100% !important;
+ }
+
+
+ body .job-content .main-jobs{
+    padding:0px !important;
+ }
+
+ body .carrer-details .title,
+ body .job-content .search-bar .sub-title,
+ body .job-content .main-jobs .sub-title{
+    font-size:20px !important;
+ }
+
+ body .carrer-details .small-dets,
+ body .job-content .main-jobs .fx,
+ body .job-content .search-bar .space,
+ body .job-content .main-jobs .space,
+ body .job-content .main-jobs .small-dets{
+    flex-direction: column !important;
+    justify-content: unset !important;
+    align-items:unset !important;
+ }
+
+ body .carrer-details .small-dets .d-flex,
+ body .job-content .main-jobs .fx .bd,
+ body .job-content .main-jobs .small-dets .d-flex{
+   margin:10px 0px !important;
+ }
+
+ body .job-content .main-jobs button{
+    width:100% !important;
+    margin-bottom:10px;
+ }
+
+ body .carrer-home .cover-over form .d-flex{
+    align-items: center !important;
+ }
+
+
+
+ body .carrer-home .cover-over form  svg{
+  width:20px !important;
+  height:20px !important;
+}
+
+body .carrer-details  .box-details button,
+body .job-content .search-bar  button{
+  width:100% !important;
+}
+
+body .carrer-details{
+  flex-direction: column !important; 
+}
+
+body .content-details{
+    padding:0px !important;
+}
+
+body .carrer-details .bx{
+  margin-bottom:10px !important;
+}
+
+
+body .carrer-details  .box-details{
+   width:100% !important;
+   min-width:100% !important;
+   margin:20px 0px !important;
+}
+
+.loader {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.loader div{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.loader img{
+     max-height:150px !important;
+}
+ 
+
+.loader div h2{
+  width:100%;
+  padding:0px !important;
+  margin:20px 0px !important;
+  font-size:20px !important;
+}
+
+
+ 
 }

@@ -80,6 +80,7 @@ const Container = styled.div`
      width:100%;
      padding:40px 0px;
      min-height:300px;  
+     margin-bottom:30px;
 
      .testimonials{
           display:flex;
