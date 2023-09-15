@@ -331,6 +331,21 @@ background:#F8F9FA;
                       height:60px;
                       border:none;
                   }
+                  
+                  .icon{
+                    padding:0px 10px; 
+                    font-size:16px !important;
+
+                      svg{
+                           width:20px !important;
+                           height:20px !important;
+                      }
+                 }
+
+                  .d-flex{
+                      width:100%;
+                      align-items:center;
+                  }
 
                    .icon{
                       padding:0px 10px; 

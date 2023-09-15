@@ -33,7 +33,7 @@ function CarrerHome() {
         <Container>
                <NavbarCarrers /> 
                <div className="cover carrer-home"> 
-                  {window.innerWidth >= 9000 ?
+                  {window.innerWidth >= 900 ?
                    <video src={VideoSrc} poster='https://www.aljazeera.com/wp-content/uploads/2023/03/story_15_final.jpg?resize=1620%2C1080&quality=80' muted autoPlay loop />:
                    <></>}
                    <div className="cover-over">
@@ -73,7 +73,7 @@ function CarrerHome() {
     return( 
        <div className="loader">
           <div>
-             <img src={window.innerWidth >= 9000 ?  Logo : Logo1} alt="" />
+             <img src={window.innerWidth >= 900 ?  Logo : Logo1} alt="" />
               <h2>Carreira para todos</h2>
           </div>
        </div>
@@ -145,6 +145,7 @@ const Container = styled.div`
 
                        .d-flex{
                          align-items:center;
+                         width:100%;
                        }
                  }
           }
