@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Footer from '../Components/Footer';
 import NavbarCarrers from './Components/NavbarCarrers'; 
-import {BsPinMapFill,BsBuildingCheck,  BsSearch} from "react-icons/bs";
+import {BsPinMapFill, BsBriefcase, BsBuildingCheck,  BsPersonCircle, BsCalendarDay} from "react-icons/bs";
 import {BiMap} from "react-icons/bi";
 import { Avatar } from '@mui/material';
 
@@ -32,41 +32,35 @@ function CarrerJobDetails() {
                    <div className="block-info">
                    <div className="subtitle">Descrição do emprego</div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nesciunt quibusdam quidem voluptatibus fugit quaerat officiis quod repellendus doloribus omnis. Quaerat eaque quibusdam est et placeat repellendus commodi qui nemo eveniet maiores voluptatibus fugiat minima voluptas incidunt quis dolor, inventore, ad deserunt! Alias voluptatum minima tempore ipsa perspiciatis, repellendus voluptates?
-                    </p>
+                       A tecnologia está em tudo o que fazemos. Contamos com ele para oferecer a excelência que nossos clientes merecem. E é por isso que nossos engenheiros de software são cruciais para todos os aspectos de nossas operações. Eles estão por trás dos algoritmos que alimentam nossa obsessão em oferecer excelentes produtos e serviços.
+                       Você quer usar seu conhecimento para construir novas soluções de software? Você gosta de resolver problemas complexos? Em um ambiente inovador e de ritmo acelerado, há muitos projetos nos quais você pode trabalhar. E você pode se orgulhar de saber que melhorará a vida de milhões de pessoas em todo o mundo.
+                        Conosco, você aprimorará suas habilidades e trabalhará com outras mentes talentosas. Você terá liberdade para explorar e transformar suas ideias em realidade. As possibilidades de aprendizagem são infinitas. Você construirá uma carreira sólida sabendo que tem todas as ferramentas para prosperar. 
+                    </p> 
                    </div>
                    <div className="block-info">
                        <div className="subtitle">Responsabilidades</div>
-                       <ol  type='1'>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                       </ol>
+                      <p>
+                      - Mais de 5 anos de disciplinas de gerenciamento de projetos, incluindo escopo, cronograma, orçamento, qualidade, juntamente com experiência em gerenciamento de riscos e caminho crítico - Experiência no gerenciamento de projetos em equipes multifuncionais, construindo processos sustentáveis ​​e coordenando cronogramas de lançamento - Experiência na definição de KPIs/SLAs usados ​​para impulsionar negócios multimilionários e reporte à liderança sénior O Standard Bank está empenhado num local de trabalho diversificado e inclusivo. O Standard Bank é um empregador que oferece oportunidades iguais e não discrimina com base na raça, origem nacional, género, identidade de género, orientação sexual, estatuto de veterano protegido, deficiência, idade ou outro estatuto legalmente protegido. Para indivíduos com deficiência que desejam solicitar acomodação, visite https://www.Standard Bank.jobs/en/disability/us.
+                        <br /><br />
+                        Nossa remuneração reflete o custo da mão de obra em vários mercados geográficos dos EUA. O salário base para esta posição varia de US$ 119.000/ano em nosso mercado geográfico mais baixo até US$ 231.400/ano em nosso mercado geográfico mais alto. O pagamento é baseado em uma série de fatores, incluindo localização no mercado, e pode variar dependendo do conhecimento, habilidades e experiência relacionados ao trabalho. O Standard Bank é uma empresa de remuneração total. Dependendo do cargo oferecido, capital, pagamentos de adesão e outras formas de remuneração podem ser fornecidos como parte de um pacote de remuneração total, além de uma gama completa de benefícios médicos, financeiros e/ou outros.
+                        <br /><br />
+                        Para obter mais informações, visite https://www.aboutStandardBank.com/workplace/employee-benefits. Os candidatos devem se inscrever por meio de nosso site de carreiras interno ou externo.
+                      </p>
                    </div>
                    <div className="block-info">
                        <div className="subtitle">Qualificações</div>
                        <ol  type='1'>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                           <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                           <li>5+ years of technical product or program management experience</li>
+                           <li>7+ years of working directly with engineering teams experience</li>
+                           <li>3+ years of software development experience</li>
+                           <li>5+ years of technical program management working directly with software engineering teams experience</li>
+                           <li>Experience managing programs across cross functional teams, building processes and coordinating release schedules</li> 
                        </ol>
                    </div>
                   </div>
                   <div className="box-details">
                       <div className="center">
-                        <Avatar sx={{width:130,height:130}} src="" />
+                        <Avatar sx={{width:130,height:130}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1K9yNMZBYsLsTHzT-T9vubJJaS6EnlK1o5gUCE5myR7-YvozR1Ae35Uy5fdimU7f_kYM&usqp=CAU" />
                         <h2 className="subtitle">Standard Bank Group</h2>
                       </div>
                        <button className="btn col-lg-12 bg-blue text-light mt-2">Aplicar</button>
@@ -75,31 +69,31 @@ function CarrerJobDetails() {
                        <ul>
 
                            <li>
-                              <div className="icon"> </div>
+                              <div className="icon"><BsBriefcase/> </div>
                               <div className="text">
                                  <small>Tipo de emprego</small>
                                  <h5>Contrato</h5>
                               </div>
                            </li>
                            <li>
-                              <div className="icon"> </div>
+                              <div className="icon"><BsPinMapFill/> </div>
                               <div className="text">
-                                 <small>Tipo de emprego</small>
-                                 <h5>Contrato</h5>
+                                 <small>Localização</small>
+                                 <h5>Angola, Luanda</h5>
                               </div>
                            </li>
                            <li>
-                              <div className="icon"> </div>
+                              <div className="icon"><BsPersonCircle/> </div>
                               <div className="text">
-                                 <small>Tipo de emprego</small>
-                                 <h5>Contrato</h5>
+                                 <small>Experiencia</small>
+                                 <h5>Nivel avançado</h5>
                               </div>
                            </li> 
                            <li>
-                              <div className="icon"> </div>
+                              <div className="icon"><BsCalendarDay/> </div>
                               <div className="text">
-                                 <small>Tipo de emprego</small>
-                                 <h5>Contrato</h5>
+                                 <small>Data de publicação</small>
+                                 <h5>Jan 12, 2023</h5>
                               </div>
                            </li>
 
@@ -271,8 +265,8 @@ const Container = styled.div`
                       justify-content:center;
 
                         svg{
-                            width:35px;
-                            height:35px;
+                            width:20px;
+                            height:20px;
                         }
                   }
                 }
