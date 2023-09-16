@@ -44,7 +44,7 @@ function CarrerJobDetails() {
                         <br /><br />
                         Nossa remuneração reflete o custo da mão de obra em vários mercados geográficos dos EUA. O salário base para esta posição varia de US$ 119.000/ano em nosso mercado geográfico mais baixo até US$ 231.400/ano em nosso mercado geográfico mais alto. O pagamento é baseado em uma série de fatores, incluindo localização no mercado, e pode variar dependendo do conhecimento, habilidades e experiência relacionados ao trabalho. O Standard Bank é uma empresa de remuneração total. Dependendo do cargo oferecido, capital, pagamentos de adesão e outras formas de remuneração podem ser fornecidos como parte de um pacote de remuneração total, além de uma gama completa de benefícios médicos, financeiros e/ou outros.
                         <br /><br />
-                        Para obter mais informações, visite https://www.aboutStandardBank.com/workplace/employee-benefits. Os candidatos devem se inscrever por meio de nosso site de carreiras interno ou externo.
+                        Para obter mais informações, visite www.aboutStandardBank.com Os candidatos devem se inscrever por meio de nosso site de carreiras interno ou externo.
                       </p>
                    </div>
                    <div className="block-info">
