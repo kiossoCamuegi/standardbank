@@ -189,6 +189,7 @@ body #google-translate-element span {
          line-height:40px;
     }
 
+    body .about-content iframe,
    body .dreams iframe{
          min-height:300px !important;
          height:300px !important;
@@ -690,6 +691,9 @@ body  .loader  h2{
   
 } 
 
+
+
+
 @media screen and (max-width:900px){
  
   
@@ -699,10 +703,11 @@ body  .loader  h2{
     background:var(--black);
   }
 
+   
+  body .about-header .image,
   body .carrer-home img{
       display: none !important;
   }
-
 
   body .carrer-home.h1{
     height:70vh !important;
@@ -712,13 +717,34 @@ body  .loader  h2{
     text-align: left !important;
   }
 
+  body .about-header .title,
   body .carrer-home .cover-over .title{ 
       font-size:30px !important; 
       margin-bottom:10px !important;
   }
 
+  body .about-content{
+       padding:0px 20px;
+  }
+
+  body .about-content .text-block,
+  body .about-header .text  .text-light.d-flex,
+  body .about-header .text .downloads,
   body .carrer-home .cover-over form{
      flex-direction: column !important;
+  }
+
+  
+  body .about-content .text-block{
+      padding:0px !important;
+  }
+
+  body .about-content .text-block, .text,
+  body .about-content .image{
+      padding:0px !important;
+      margin:10px 0px;
+      min-width:100% !important;
+      max-width:100% !important;
   }
 
   
@@ -732,6 +758,11 @@ body  .loader  h2{
   body .carrer-home .cover-over form select,
   body .carrer-home .cover-over form .btn{
       width:100% !important; 
+  }
+
+  body .about-header .text .downloads .mr-2,
+  body .about-header .text .downloads img{
+    width:100% !important;  
   }
 
 

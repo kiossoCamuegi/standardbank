@@ -2,13 +2,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Services from './Pages/Services';
 import Signin from './Pages/Signin';
-import Contacts from './Pages/Contacts';
-import About from './Pages/About';
+import Contacts from './Pages/Contacts'; 
 import Sb_signin from './Pages/SB24/Sb_signin';
 import Sb_dashboard from './Pages/SB24/Sb_dashboard';
 import CarrerHome from './Pages/Carrers/CarrerHome';
 import CarrerSearch from './Pages/Carrers/CarrerSearch';
 import CarrerJobDetails from './Pages/Carrers/CarrerJobDetails';
+import About from './Pages/AboutPage/About';
 
 function App() {
   return (
