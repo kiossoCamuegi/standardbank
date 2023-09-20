@@ -22,7 +22,7 @@ const Toogle = ()=>{
                       <Link to="/"> <img src={Logo} className='logo' alt="standard bank" /></Link>
                   </div>
                   <ul className="nav-item links-menu">
-                      <li><Link to="#">Sobre</Link></li>
+                      <li><Link to="/about">Sobre</Link></li>
                       <li><Link to="#">Serviços</Link></li>
                       <li><Link to="#">Campanhas</Link></li>
                       <li><Link to="#">Comunicações</Link></li>
