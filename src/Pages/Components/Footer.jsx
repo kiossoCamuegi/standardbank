@@ -26,6 +26,7 @@ function Footer() {
                         <li><Link to="#">Parcerias</Link></li>
                         <li><Link to="#">Industrias</Link></li>
                         <li><Link to="#">Serviçõs</Link></li>
+                        <li><Link to="/employeemailer">StandardBank mailer</Link></li>
                     </ul>
                  </div> 
                  <div className="footer-item">

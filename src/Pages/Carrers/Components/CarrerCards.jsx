@@ -36,7 +36,7 @@ function CarrerCards() {
              <div className="cards">
                  {Data.map((item, index)=>(
                      <article key={index}>
-                         <ImageLazyLoading  height={200} source={item.image} />
+                         <ImageLazyLoading  height={150} source={item.image} />
                          <div className="dets">
                             <Link to="#"><h2>{item.title}</h2></Link>
                             <p>{item.description}</p>

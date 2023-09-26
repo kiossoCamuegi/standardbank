@@ -16,7 +16,7 @@ function SB24() {
            <div className="cards-wrapper">
                 <article>
                      <div className="image"> 
-                         <ImageLazyLoading height={300} source="https://www.born.pt/folder/galeriatrabalho/ficheiro/115_Prancheta%201_1v352mslc5.png"  /> 
+                         <ImageLazyLoading height={450} source="https://www.born.pt/folder/galeriatrabalho/ficheiro/115_Prancheta%201_1v352mslc5.png"  /> 
                      </div>
                      <div className="details">
                         <h2>Os melhores , estão sempre nos melhores locais ...</h2>
@@ -28,7 +28,7 @@ function SB24() {
 
                 <article>
                      <div className="image">
-                        <ImageLazyLoading height={300} source="https://www.born.pt/folder/galeriatrabalho/ficheiro/115_Prancheta_mhh5whgrq6.png"  /> 
+                        <ImageLazyLoading height={450} source="https://www.born.pt/folder/galeriatrabalho/ficheiro/115_Prancheta_mhh5whgrq6.png"  /> 
                      </div>
                      <div className="details">
                         <h2>Os melhores , estão sempre nos melhores locais ...</h2>
@@ -40,7 +40,7 @@ function SB24() {
 
                 <article>
                      <div className="image"> 
-                         <ImageLazyLoading height={300} source="https://www.born.pt/folder/galeriatrabalho/ficheiro/115_Prancheta3_oylrnnxqxg.png"  /> 
+                         <ImageLazyLoading height={450} source="https://www.born.pt/folder/galeriatrabalho/ficheiro/115_Prancheta3_oylrnnxqxg.png"  /> 
                      </div>
                      <div className="details">
                         <h2>Os melhores , estão sempre nos melhores locais ...</h2>

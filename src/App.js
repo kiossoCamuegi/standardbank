@@ -9,6 +9,7 @@ import CarrerHome from './Pages/Carrers/CarrerHome';
 import CarrerSearch from './Pages/Carrers/CarrerSearch';
 import CarrerJobDetails from './Pages/Carrers/CarrerJobDetails';
 import About from './Pages/AboutPage/About';
+import MainMailer from './Pages/Mailer/MainMailer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/sb24_dashboard" element={<Sb_dashboard />} />
           <Route path="/carrersearch" element={<CarrerSearch />} />
           <Route path="/carrerjobdetails" element={<CarrerJobDetails />} />
+          <Route path="/employeemailer" element={<MainMailer />} />
        </Routes>
    </Router>
   );

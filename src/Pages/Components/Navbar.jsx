@@ -15,7 +15,7 @@ const Toogle = ()=>{
 }
 
   return (
-    <Container>
+    <Container >
         <div className="wrapper">
              <div className="navbar-items">
                   <div className="nav-item">
@@ -45,7 +45,7 @@ const Toogle = ()=>{
                     </div>
                     <br />
                     <ul>
-                        <li><Link to="#">Sobre</Link></li>
+                        <li><Link to="/about">Sobre</Link></li>
                         <li><Link to="#">Serviços</Link></li>
                         <li><Link to="#">Campanhas</Link></li>
                         <li><Link to="#">Comunicações</Link></li>

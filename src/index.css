@@ -694,8 +694,108 @@ body  .loader  h2{
 
 
 
+
+body .GifPickerReact.gpr-main, 
+body .EmojiPickerReact{
+  position: absolute !important; 
+  left:0px;  
+  bottom:50px;   
+  box-shadow:0px 3px 10px rgba(0,0,0,0.1) !important;  
+  z-index:1000;
+  margin:0px !important;
+  height:400px !important;
+}  
+
+
+body .mailer-toogle-menu{
+    display: none;
+}
+ 
+
 @media screen and (max-width:900px){
  
+  body .sdb-mailer .content-box .mailer-messages,
+  body .sdb-mailer .content-box{
+       padding:0px !important; 
+       border-radius:0px !important;
+       overflow-y: unset !important;
+       max-height:100% !important;
+       height:100% !important;
+  }
+
+  body .sdb-mailer .mailer-menu,
+  body .sdb-mailer .mailer-chat{
+      width:100% !important;
+      height:100vh !important;
+      border-top-right-radius:0px !important; 
+      right:0px !important;
+      top:0px !important;
+      position: fixed !important;
+      z-index:100;
+  }
+
+  body .sdb-mailer .mailer-chat  .chat-header h1{
+    font-size:18px !important;
+  }
+
+  body .sdb-mailer .mailer-chat .se-wrapper{
+    min-height:370px !important;   
+  }
+
+  body .sdb-mailer .content-box{
+    padding-top:80px !important;
+  }
+
+  body .sdb-mailer .content-box ul li .time{
+      font-size:13px !important;
+  }
+
+  body .mailer-menu{ 
+    display: none !important;
+    overflow-y: auto;
+    max-height:100vh;
+  }
+
+  body .mailer-menu.show{ 
+    display:block !important;
+  }
+
+  body .mailer-menu .assets{
+    padding-bottom:40px !important;
+  }
+  
+
+
+  body .mailer-toogle-menu{
+      width:50px;
+      height:50px;
+      border-radius:100%;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      color:#fff; 
+      position: fixed;
+      right:20px;
+      bottom:20px;
+      cursor: pointer;
+      z-index:1000 !important;
+  }
+  
+
+body .GifPickerReact.gpr-main, 
+body .EmojiPickerReact{ 
+  bottom:80px;    
+}  
+
+body .EmojiPickerReact{
+  left: -55px !important;
+}
+
+ 
+
+  body .sdb-mailer .content-box ul li .d-flex{
+    align-items: center;
+  }
   
   body .carrer-home{
     height:90vh !important;    
@@ -703,7 +803,9 @@ body  .loader  h2{
     background:var(--black);
   }
 
-   
+  body .sdb-mailer .mail-dets,
+  body .sdb-mailer .content-box ul li span,
+  body .mailer-navbar .search-form,
   body .about-header .image,
   body .carrer-home img{
       display: none !important;
@@ -899,3 +1001,5 @@ body .carrer-details  .box-details{
 
  
 }
+
+ 
